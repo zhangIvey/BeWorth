@@ -16,6 +16,9 @@
 		759E207F20A1C429006494CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 759E207E20A1C429006494CB /* main.m */; };
 		759E208920A1C429006494CB /* BeWorthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 759E208820A1C429006494CB /* BeWorthTests.m */; };
 		759E209420A1C429006494CB /* BeWorthUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 759E209320A1C429006494CB /* BeWorthUITests.m */; };
+		80A8F5C02442D0257CF34A05 /* libPods-BeWorthUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF88470D3BE2645D861F8101 /* libPods-BeWorthUITests.a */; };
+		A8ED35AC0D37C9183B88B660 /* libPods-BeWorthTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3362D142780D77C222C39DB2 /* libPods-BeWorthTests.a */; };
+		F7C93471A0FBA6CD6D5BF649 /* libPods-BeWorth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D1E5F241F9F57D6A6B532B /* libPods-BeWorth.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B4DF10E12645EA1675CF480 /* Pods-BeWorth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeWorth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeWorth/Pods-BeWorth.debug.xcconfig"; sourceTree = "<group>"; };
+		13D1E5F241F9F57D6A6B532B /* libPods-BeWorth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeWorth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3362D142780D77C222C39DB2 /* libPods-BeWorthTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeWorthTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		759E206920A1C429006494CB /* BeWorth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeWorth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		759E206C20A1C429006494CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		759E206D20A1C429006494CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +59,12 @@
 		759E208F20A1C429006494CB /* BeWorthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeWorthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		759E209320A1C429006494CB /* BeWorthUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeWorthUITests.m; sourceTree = "<group>"; };
 		759E209520A1C429006494CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A8A8BB1868E790845D8C8E5 /* Pods-BeWorthTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeWorthTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeWorthTests/Pods-BeWorthTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5A9DCD723F8C171D25C9117 /* Pods-BeWorthUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeWorthUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeWorthUITests/Pods-BeWorthUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C0146BB655E1ED8D3133F9E2 /* Pods-BeWorthTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeWorthTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeWorthTests/Pods-BeWorthTests.release.xcconfig"; sourceTree = "<group>"; };
+		C82193B5FEB9E78B88CB16E0 /* Pods-BeWorth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeWorth.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeWorth/Pods-BeWorth.release.xcconfig"; sourceTree = "<group>"; };
+		EBF198B6681D14C2BE56CAA2 /* Pods-BeWorthUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeWorthUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeWorthUITests/Pods-BeWorthUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF88470D3BE2645D861F8101 /* libPods-BeWorthUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeWorthUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7C93471A0FBA6CD6D5BF649 /* libPods-BeWorth.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8ED35AC0D37C9183B88B660 /* libPods-BeWorthTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80A8F5C02442D0257CF34A05 /* libPods-BeWorthUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +102,8 @@
 				759E208720A1C429006494CB /* BeWorthTests */,
 				759E209220A1C429006494CB /* BeWorthUITests */,
 				759E206A20A1C429006494CB /* Products */,
+				C8068C73C9CED461EC595B50 /* Pods */,
+				F6996E14F8581E42F5D758E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +152,29 @@
 			path = BeWorthUITests;
 			sourceTree = "<group>";
 		};
+		C8068C73C9CED461EC595B50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B4DF10E12645EA1675CF480 /* Pods-BeWorth.debug.xcconfig */,
+				C82193B5FEB9E78B88CB16E0 /* Pods-BeWorth.release.xcconfig */,
+				8A8A8BB1868E790845D8C8E5 /* Pods-BeWorthTests.debug.xcconfig */,
+				C0146BB655E1ED8D3133F9E2 /* Pods-BeWorthTests.release.xcconfig */,
+				EBF198B6681D14C2BE56CAA2 /* Pods-BeWorthUITests.debug.xcconfig */,
+				A5A9DCD723F8C171D25C9117 /* Pods-BeWorthUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6996E14F8581E42F5D758E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13D1E5F241F9F57D6A6B532B /* libPods-BeWorth.a */,
+				3362D142780D77C222C39DB2 /* libPods-BeWorthTests.a */,
+				FF88470D3BE2645D861F8101 /* libPods-BeWorthUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 759E209820A1C429006494CB /* Build configuration list for PBXNativeTarget "BeWorth" */;
 			buildPhases = (
+				323ED40673B6A4DC2B1EBFAA /* [CP] Check Pods Manifest.lock */,
 				759E206520A1C429006494CB /* Sources */,
 				759E206620A1C429006494CB /* Frameworks */,
 				759E206720A1C429006494CB /* Resources */,
+				C97F5F683C6A7DE9F77C5238 /* [CP] Embed Pods Frameworks */,
+				EDE6DD4C58992A4EDE3A6DAD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 759E209B20A1C429006494CB /* Build configuration list for PBXNativeTarget "BeWorthTests" */;
 			buildPhases = (
+				A9F4919E07693898D5B90319 /* [CP] Check Pods Manifest.lock */,
 				759E208020A1C429006494CB /* Sources */,
 				759E208120A1C429006494CB /* Frameworks */,
 				759E208220A1C429006494CB /* Resources */,
+				F6EE80F0CCB1A946AE2E0757 /* [CP] Embed Pods Frameworks */,
+				4C65CC81D50C9D2D939510F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 759E209E20A1C429006494CB /* Build configuration list for PBXNativeTarget "BeWorthUITests" */;
 			buildPhases = (
+				80BC9DD215AC6536C07F4F79 /* [CP] Check Pods Manifest.lock */,
 				759E208B20A1C429006494CB /* Sources */,
 				759E208C20A1C429006494CB /* Frameworks */,
 				759E208D20A1C429006494CB /* Resources */,
+				646A32DD490A55C74A6BB917 /* [CP] Embed Pods Frameworks */,
+				B73957FEB05778EF299EF8CF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,6 +311,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		323ED40673B6A4DC2B1EBFAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeWorth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C65CC81D50C9D2D939510F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeWorthTests/Pods-BeWorthTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		646A32DD490A55C74A6BB917 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeWorthUITests/Pods-BeWorthUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80BC9DD215AC6536C07F4F79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeWorthUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9F4919E07693898D5B90319 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeWorthTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B73957FEB05778EF299EF8CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeWorthUITests/Pods-BeWorthUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C97F5F683C6A7DE9F77C5238 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeWorth/Pods-BeWorth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDE6DD4C58992A4EDE3A6DAD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeWorth/Pods-BeWorth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6EE80F0CCB1A946AE2E0757 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeWorthTests/Pods-BeWorthTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		759E206520A1C429006494CB /* Sources */ = {
@@ -432,6 +628,7 @@
 		};
 		759E209920A1C429006494CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B4DF10E12645EA1675CF480 /* Pods-BeWorth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -447,6 +644,7 @@
 		};
 		759E209A20A1C429006494CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C82193B5FEB9E78B88CB16E0 /* Pods-BeWorth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -462,6 +660,7 @@
 		};
 		759E209C20A1C429006494CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A8A8BB1868E790845D8C8E5 /* Pods-BeWorthTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -476,6 +675,7 @@
 		};
 		759E209D20A1C429006494CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0146BB655E1ED8D3133F9E2 /* Pods-BeWorthTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -490,6 +690,7 @@
 		};
 		759E209F20A1C429006494CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBF198B6681D14C2BE56CAA2 /* Pods-BeWorthUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BeWorthUITests/Info.plist;
@@ -503,6 +704,7 @@
 		};
 		759E20A020A1C429006494CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5A9DCD723F8C171D25C9117 /* Pods-BeWorthUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BeWorthUITests/Info.plist;
