@@ -120,6 +120,7 @@
 		759E206B20A1C429006494CB /* BeWorth */ = {
 			isa = PBXGroup;
 			children = (
+				759E20E220A1D68C006494CB /* Classes */,
 				759E206C20A1C429006494CB /* AppDelegate.h */,
 				759E206D20A1C429006494CB /* AppDelegate.m */,
 				759E206F20A1C429006494CB /* ViewController.h */,
@@ -150,6 +151,13 @@
 				759E209520A1C429006494CB /* Info.plist */,
 			);
 			path = BeWorthUITests;
+			sourceTree = "<group>";
+		};
+		759E20E220A1D68C006494CB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		C8068C73C9CED461EC595B50 /* Pods */ = {
