@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		759E206E20A1C429006494CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 759E206D20A1C429006494CB /* AppDelegate.m */; };
+		759E207120A1C429006494CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 759E207020A1C429006494CB /* ViewController.m */; };
+		759E207420A1C429006494CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 759E207220A1C429006494CB /* Main.storyboard */; };
+		759E207720A1C429006494CB /* BeWorth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 759E207520A1C429006494CB /* BeWorth.xcdatamodeld */; };
+		759E207920A1C429006494CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759E207820A1C429006494CB /* Assets.xcassets */; };
+		759E207C20A1C429006494CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 759E207A20A1C429006494CB /* LaunchScreen.storyboard */; };
+		759E207F20A1C429006494CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 759E207E20A1C429006494CB /* main.m */; };
+		759E208920A1C429006494CB /* BeWorthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 759E208820A1C429006494CB /* BeWorthTests.m */; };
+		759E209420A1C429006494CB /* BeWorthUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 759E209320A1C429006494CB /* BeWorthUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		759E208520A1C429006494CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 759E206120A1C429006494CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 759E206820A1C429006494CB;
+			remoteInfo = BeWorth;
+		};
+		759E209020A1C429006494CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 759E206120A1C429006494CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 759E206820A1C429006494CB;
+			remoteInfo = BeWorth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		759E206920A1C429006494CB /* BeWorth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeWorth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		759E206C20A1C429006494CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		759E206D20A1C429006494CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		759E206F20A1C429006494CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		759E207020A1C429006494CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		759E207320A1C429006494CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		759E207620A1C429006494CB /* BeWorth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeWorth.xcdatamodel; sourceTree = "<group>"; };
+		759E207820A1C429006494CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		759E207B20A1C429006494CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		759E207D20A1C429006494CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		759E207E20A1C429006494CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		759E208420A1C429006494CB /* BeWorthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeWorthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		759E208820A1C429006494CB /* BeWorthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeWorthTests.m; sourceTree = "<group>"; };
+		759E208A20A1C429006494CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		759E208F20A1C429006494CB /* BeWorthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeWorthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		759E209320A1C429006494CB /* BeWorthUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeWorthUITests.m; sourceTree = "<group>"; };
+		759E209520A1C429006494CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		759E206620A1C429006494CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759E208120A1C429006494CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759E208C20A1C429006494CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		759E206020A1C429006494CB = {
+			isa = PBXGroup;
+			children = (
+				759E206B20A1C429006494CB /* BeWorth */,
+				759E208720A1C429006494CB /* BeWorthTests */,
+				759E209220A1C429006494CB /* BeWorthUITests */,
+				759E206A20A1C429006494CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		759E206A20A1C429006494CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				759E206920A1C429006494CB /* BeWorth.app */,
+				759E208420A1C429006494CB /* BeWorthTests.xctest */,
+				759E208F20A1C429006494CB /* BeWorthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		759E206B20A1C429006494CB /* BeWorth */ = {
+			isa = PBXGroup;
+			children = (
+				759E206C20A1C429006494CB /* AppDelegate.h */,
+				759E206D20A1C429006494CB /* AppDelegate.m */,
+				759E206F20A1C429006494CB /* ViewController.h */,
+				759E207020A1C429006494CB /* ViewController.m */,
+				759E207220A1C429006494CB /* Main.storyboard */,
+				759E207820A1C429006494CB /* Assets.xcassets */,
+				759E207A20A1C429006494CB /* LaunchScreen.storyboard */,
+				759E207D20A1C429006494CB /* Info.plist */,
+				759E207E20A1C429006494CB /* main.m */,
+				759E207520A1C429006494CB /* BeWorth.xcdatamodeld */,
+			);
+			path = BeWorth;
+			sourceTree = "<group>";
+		};
+		759E208720A1C429006494CB /* BeWorthTests */ = {
+			isa = PBXGroup;
+			children = (
+				759E208820A1C429006494CB /* BeWorthTests.m */,
+				759E208A20A1C429006494CB /* Info.plist */,
+			);
+			path = BeWorthTests;
+			sourceTree = "<group>";
+		};
+		759E209220A1C429006494CB /* BeWorthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				759E209320A1C429006494CB /* BeWorthUITests.m */,
+				759E209520A1C429006494CB /* Info.plist */,
+			);
+			path = BeWorthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		759E206820A1C429006494CB /* BeWorth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759E209820A1C429006494CB /* Build configuration list for PBXNativeTarget "BeWorth" */;
+			buildPhases = (
+				759E206520A1C429006494CB /* Sources */,
+				759E206620A1C429006494CB /* Frameworks */,
+				759E206720A1C429006494CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeWorth;
+			productName = BeWorth;
+			productReference = 759E206920A1C429006494CB /* BeWorth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		759E208320A1C429006494CB /* BeWorthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759E209B20A1C429006494CB /* Build configuration list for PBXNativeTarget "BeWorthTests" */;
+			buildPhases = (
+				759E208020A1C429006494CB /* Sources */,
+				759E208120A1C429006494CB /* Frameworks */,
+				759E208220A1C429006494CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				759E208620A1C429006494CB /* PBXTargetDependency */,
+			);
+			name = BeWorthTests;
+			productName = BeWorthTests;
+			productReference = 759E208420A1C429006494CB /* BeWorthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		759E208E20A1C429006494CB /* BeWorthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759E209E20A1C429006494CB /* Build configuration list for PBXNativeTarget "BeWorthUITests" */;
+			buildPhases = (
+				759E208B20A1C429006494CB /* Sources */,
+				759E208C20A1C429006494CB /* Frameworks */,
+				759E208D20A1C429006494CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				759E209120A1C429006494CB /* PBXTargetDependency */,
+			);
+			name = BeWorthUITests;
+			productName = BeWorthUITests;
+			productReference = 759E208F20A1C429006494CB /* BeWorthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		759E206120A1C429006494CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = zz;
+				TargetAttributes = {
+					759E206820A1C429006494CB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					759E208320A1C429006494CB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 759E206820A1C429006494CB;
+					};
+					759E208E20A1C429006494CB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 759E206820A1C429006494CB;
+					};
+				};
+			};
+			buildConfigurationList = 759E206420A1C429006494CB /* Build configuration list for PBXProject "BeWorth" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 759E206020A1C429006494CB;
+			productRefGroup = 759E206A20A1C429006494CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				759E206820A1C429006494CB /* BeWorth */,
+				759E208320A1C429006494CB /* BeWorthTests */,
+				759E208E20A1C429006494CB /* BeWorthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		759E206720A1C429006494CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759E207C20A1C429006494CB /* LaunchScreen.storyboard in Resources */,
+				759E207920A1C429006494CB /* Assets.xcassets in Resources */,
+				759E207420A1C429006494CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759E208220A1C429006494CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759E208D20A1C429006494CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		759E206520A1C429006494CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759E207120A1C429006494CB /* ViewController.m in Sources */,
+				759E206E20A1C429006494CB /* AppDelegate.m in Sources */,
+				759E207F20A1C429006494CB /* main.m in Sources */,
+				759E207720A1C429006494CB /* BeWorth.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759E208020A1C429006494CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759E208920A1C429006494CB /* BeWorthTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759E208B20A1C429006494CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759E209420A1C429006494CB /* BeWorthUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		759E208620A1C429006494CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 759E206820A1C429006494CB /* BeWorth */;
+			targetProxy = 759E208520A1C429006494CB /* PBXContainerItemProxy */;
+		};
+		759E209120A1C429006494CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 759E206820A1C429006494CB /* BeWorth */;
+			targetProxy = 759E209020A1C429006494CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		759E207220A1C429006494CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				759E207320A1C429006494CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		759E207A20A1C429006494CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				759E207B20A1C429006494CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		759E209620A1C429006494CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		759E209720A1C429006494CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		759E209920A1C429006494CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BeWorth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monster.BeWorth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		759E209A20A1C429006494CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BeWorth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monster.BeWorth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		759E209C20A1C429006494CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BeWorthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monster.BeWorthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeWorth.app/BeWorth";
+			};
+			name = Debug;
+		};
+		759E209D20A1C429006494CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BeWorthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monster.BeWorthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeWorth.app/BeWorth";
+			};
+			name = Release;
+		};
+		759E209F20A1C429006494CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BeWorthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monster.BeWorthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeWorth;
+			};
+			name = Debug;
+		};
+		759E20A020A1C429006494CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BeWorthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monster.BeWorthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeWorth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		759E206420A1C429006494CB /* Build configuration list for PBXProject "BeWorth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759E209620A1C429006494CB /* Debug */,
+				759E209720A1C429006494CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		759E209820A1C429006494CB /* Build configuration list for PBXNativeTarget "BeWorth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759E209920A1C429006494CB /* Debug */,
+				759E209A20A1C429006494CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		759E209B20A1C429006494CB /* Build configuration list for PBXNativeTarget "BeWorthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759E209C20A1C429006494CB /* Debug */,
+				759E209D20A1C429006494CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		759E209E20A1C429006494CB /* Build configuration list for PBXNativeTarget "BeWorthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759E209F20A1C429006494CB /* Debug */,
+				759E20A020A1C429006494CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		759E207520A1C429006494CB /* BeWorth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				759E207620A1C429006494CB /* BeWorth.xcdatamodel */,
+			);
+			currentVersion = 759E207620A1C429006494CB /* BeWorth.xcdatamodel */;
+			path = BeWorth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 759E206120A1C429006494CB /* Project object */;
+}
