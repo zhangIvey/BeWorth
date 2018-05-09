@@ -21,8 +21,9 @@ source 'https://github.com/CocoaPods/Specs.git'  # 官方库
 #source 'https://gitee.com/ZhangLeYi/component_set.git'   #项目库
 
 #pod 'Meditation_model','0.0.1' #业务模块-冥想
-pod 'Meditation_model', :path => '/Users/yaoln/Desktop/AutoProject/Meditation/Meditation_model'      #指定路径
 #pod 'PodTestLibrary', :podspec => '~/code/Cocoapods/podTest/PodTestLibrary/PodTestLibrary.podspec'  #指定podspec文件
 
+pod 'Meditation_model', :path => '/Users/yaoln/Desktop/AutoProject/Meditation/Meditation_model'      #指定路径
+pod 'MainMenu', :path =>’/Users/yaoln/Desktop/AutoProject/MainMenu‘
 
 end
